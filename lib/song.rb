@@ -6,6 +6,6 @@ class Song
   end
   
   def title
-    @title
+    @title = title
   end
 end
