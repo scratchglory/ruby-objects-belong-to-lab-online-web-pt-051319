@@ -3,7 +3,9 @@ class Post
   
   def author=(author)
     author.class 
-    if author.is_a(author)
+    if author.is_a?(Author)
+      @author = author
+    end
     
   end
   
