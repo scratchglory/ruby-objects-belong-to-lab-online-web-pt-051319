@@ -4,4 +4,5 @@ class Post
   def author=(author)
     author.class = author
   end
+  
 end
