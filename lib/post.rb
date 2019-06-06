@@ -3,6 +3,8 @@ class Post
   
   def author=(author)
     author.class 
+    if author.in_a?
+    
   end
   
 end
